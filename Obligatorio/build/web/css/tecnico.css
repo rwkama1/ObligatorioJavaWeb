@@ -1,0 +1,55 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 25, 2017, 2:06:08 PM
+    Author     : Waldemar
+*/
+
+root { 
+    display: block;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.texto-izquierda {
+    text-align: left;
+}
+
+.texto-centro {
+    text-align: center;
+}
+
+.texto-derecha {
+    text-align: right;
+}
+
+.error {
+    color: red;
+}
+
+div.cabezal {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: yellow;
+}
+
+table.listado {
+    border-collapse: collapse;
+}
+
+table.listado, table.listado th, table.listado td {
+    border: 1px solid black;
+}
+
+table.listado td, table.listado th {
+    padding: 5px;
+}
+
+table.listado th {
+    background-color: lightyellow;
+}

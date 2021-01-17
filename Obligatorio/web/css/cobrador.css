@@ -1,0 +1,46 @@
+
+root { 
+    display: block;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.texto-izquierda {
+    text-align: left;
+}
+
+.texto-centro {
+    text-align: center;
+}
+
+.texto-derecha {
+    text-align: right;
+}
+
+.error {
+    color: darkred;
+}
+
+div.cabezal {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: skyblue;
+}
+
+table.listado {
+    border-collapse: collapse;
+}
+
+table.listado, table.listado th, table.listado td {
+    border: 1px solid black;
+}
+
+table.listado td, table.listado th {
+    padding: 5px;
+}
+
+table.listado th {
+    background-color: skyblue;
+}
